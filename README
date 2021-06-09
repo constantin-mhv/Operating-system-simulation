@@ -1,0 +1,11 @@
+The main functions for working with queues and stacks that I used are
+enqueue / dequeue and push / pop. I implemented stacks and tails so that they
+keep only the address of the element, allocation should be done before
+function call.
+
+In functions I used the variable r for the result (TRUE / FALSE), usually S / s
+for stack, Q / q for queue, P / p for process, M / m for memory.
+The "execute" function calls the functions for executing the commands.
+The "insertQ" function first adds the element using the cmp function
+in the queue (add_to_Q), after each element is extracted and added
+with the same function in the new queue.
